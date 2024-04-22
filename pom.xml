@@ -15,7 +15,7 @@
 
     <groupId>com.github.dangelcrack</groupId>
     <artifactId>calculadora</artifactId>
-    <version>1.0-snapshot</version>
+    <version>1.0-SNAPSHOT</version>
     <distributionManagement>
         <repository>
             <id>github</id>
