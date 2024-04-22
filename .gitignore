@@ -1,4 +1,7 @@
+# Maven target folder
 target/
+# IntelliJ folder
+.idea/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
