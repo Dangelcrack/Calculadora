@@ -14,9 +14,15 @@
     </build>
 
     <groupId>com.github.dangelcrack</groupId>
-    <artifactId>Calculadora</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <artifactId>calculadora</artifactId>
+    <version>1.0-snapshot</version>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/dangelcrack/Calculadora</url>
+        </repository>
+    </distributionManagement>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
