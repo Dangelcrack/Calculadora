@@ -15,12 +15,12 @@
 
     <groupId>com.github.dangelcrack</groupId>
     <artifactId>calculadora</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Dangelcrack/Calculadora</url>
+            <url>https://maven.pkg.github.com/dangelcrack/calculadora</url>
         </repository>
     </distributionManagement>
     <properties>
