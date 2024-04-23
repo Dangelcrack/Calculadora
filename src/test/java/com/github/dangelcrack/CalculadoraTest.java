@@ -87,7 +87,7 @@ class CalculadoraTest {
     @Test
     @DisplayName("RaizDeCeroTDD")
     void raizCuadradaDeCero() {
-        assertEquals(0, miCalculadora.raizCuadrada(0));
+        assertEquals(5, miCalculadora.raizCuadrada(0));
     }
 
     @Test
