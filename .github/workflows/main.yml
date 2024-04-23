@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Verifica con Maven
-        run: mvn -X --batch-mode --update-snapshots verify --file pom.xml # Comando para testear el código con maven
+        run: mvn --batch-mode --update-snapshots verify --file pom.xml # Comando para testear el código con maven
 
       # Genera un informe
       - name: Report
