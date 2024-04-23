@@ -97,7 +97,7 @@ class CalculadoraTest {
     }
 
     @Test
-    @DisplayName("RaizDeNegativoTDD")
+    @DisplayName("RaizzDeNegativoTDD")
     void raizCuadradaDeNumeroNegativo() {
         assertThrows(Calculadora.OperacionInvalidaException.class, () -> {
             miCalculadora.raizCuadrada(-1);
