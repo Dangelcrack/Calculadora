@@ -15,10 +15,10 @@ jobs:
     steps: # Pasos
       - uses: actions/checkout@v4 # Hace un checkout del código
       # Configura Java
-      - name: Set up JDK 21
+      - name: Set up JDK 17
         uses: actions/setup-java@v4 # Acción que configura el JDK
         with:
-          java-version: '21'
+          java-version: '17'
           distribution: 'temurin'
           cache: maven
       - name: Verifica con Maven
@@ -44,7 +44,7 @@ jobs:
       - uses: actions/checkout@v4 # Hace checkout del código
       - uses: actions/setup-java@v4 # Configura el SDK
         with:
-          java-version: '21'
+          java-version: '17'
           distribution: 'temurin'
       - name: Publicar paquete
         run: mvn --batch-mode deploy # Publica el paquete
